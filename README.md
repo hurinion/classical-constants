@@ -1,4 +1,4 @@
-# Computation of $\pi$: Ramanujan-Sato series
+# Computation of Pi: Ramanujan-Sato series
 
 - [Formula](#formula)
 
