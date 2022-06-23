@@ -4,7 +4,7 @@
 
 ## Introduction
 
-The purpose of this code is to computate to an arbitrary precision the value of $\pi$ using the GMP library in C++.
+The purpose of this code is to computate to an arbitrary precision the value of $\pi$ using the GNU MP (GMP) library in C++.
 
 The Ramanujan-Sato series is a precise formula. It is given as 
 $$\frac{1}{\pi} = \frac{s \sqrt{2}}{99^2} \sum_{k = 0}^{\infty} \frac{(4 k)^k}{k!^4} \frac{26390 k + 1103}{396^{4k}}.$$
@@ -13,7 +13,7 @@ Computer handling of a large number of digits is limited by its hardware and sof
 
 Dependancies:
 
-- GNU library; see [GMP manual](https://gmplib.org/manual/Introduction-to-GMP "Introduction to GNU MP"), [C++ interface](https://gmplib.org/manual/C_002b_002b-Class-Interface "C++ Class Interface")
+- GNP library; see [GMP manual](https://gmplib.org/manual/Introduction-to-GMP "Introduction to GNU MP"), [C++ interface](https://gmplib.org/manual/C_002b_002b-Class-Interface "C++ Class Interface")
 
 For Debian installation:
 
