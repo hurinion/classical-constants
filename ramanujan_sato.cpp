@@ -43,7 +43,16 @@ void calcpi() {
 
 int main() {
 
+    clock_t t0, t1;
+
+    t0 = clock();
+
     calcpi();
+
+    t1 = clock();
+    cout << "Time elapsed: "
+         << (double)(t1 - t0) / CLOCKS_PER_SEC
+         << " seconds." << endl;
     
     return 0;
 
