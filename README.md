@@ -1,4 +1,4 @@
-# Precise computation of Pi in C++: Ramanujan-Sato series
+# Ramanujan-Sato series
 
 - [Introduction](#introduction)
 
