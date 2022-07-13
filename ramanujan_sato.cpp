@@ -8,6 +8,8 @@
 
 using namespace std;
 
+/. computes an iteration of pi ./
+
 mpf_class ramanujan_sato(int iterations) {
 
     mpf_class A = 26390, B = 1103, C = 24591257856, C_ = 1, num, den, sum;
@@ -30,7 +32,9 @@ mpf_class ramanujan_sato(int iterations) {
 }
 
 void calcpi() {
-
+    
+    /. each iteration computes 8 digits of pi ./
+        
     int iterations = 100, decimals = iterations * 8, precision = decimals * log2(10);
 
     mpf_set_default_prec(precision);
