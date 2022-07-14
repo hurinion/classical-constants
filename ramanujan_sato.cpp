@@ -52,7 +52,9 @@ int main() {
     t0 = clock();
 
     calcpi();
-
+    
+    /. time elapsed over program ./
+        
     t1 = clock();
     cout << "Time elapsed: "
          << (double)(t1 - t0) / CLOCKS_PER_SEC
