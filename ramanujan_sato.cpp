@@ -33,7 +33,7 @@ mpf_class ramanujan_sato(int iterations) {
 
 void calcpi() {
     
-    /. each iteration computes 8 digits of pi ./
+    /. each iteration computes several digits of pi ./
         
     int iterations = 100, decimals = iterations * 8, precision = decimals * log2(10);
 
