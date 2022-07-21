@@ -1,10 +1,12 @@
-# Ramanujan-Sato series
+# Computations of Pi
 
 - [Introduction](#introduction)
-
+- [Ramanujan-Sato series](#ramanujan-sato-series)
 ## Introduction
 
 The purpose of this code is to computate to an arbitrary precision the value of $\pi$ using the GNU MP (GMP) library in C++.
+
+## Ramanujan-Sato series
 
 The [Ramanujan-Sato series](https://en.wikipedia.org/wiki/Ramanujan%E2%80%93Sato_series, "Wikipedia: Ramanujan–Sato series") is a precise formula. It is given as 
 $$\frac{1}{\pi} = \frac{2 \sqrt{2}}{99^2} \sum_{k = 0}^{\infty} \frac{(4 k)^k}{k!^4} \frac{26390 k + 1103}{396^{4k}}.$$
